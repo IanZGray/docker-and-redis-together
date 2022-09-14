@@ -66,6 +66,6 @@ app.listen(3000, () => {
   console.log("Running on 3000");
 });
 
-// process.on("exit", function () {
-//   client.quit();
-// });
+process.on("exit", function () {
+  client.quit();
+});
